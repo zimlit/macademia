@@ -1,4 +1,9 @@
-add_library(macademia src/macademia/application.c src/macademia/log.c)
+add_library(
+    macademia 
+    src/macademia/application.c 
+    src/macademia/log.c 
+    src/macademia/events/event.c
+)
 
 set_property(TARGET macademia PROPERTY C_STANDARD 99)
 set_property(TARGET macademia PROPERTY C_STANDARD_REQUIRED 99)

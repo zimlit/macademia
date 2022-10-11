@@ -1,6 +1,7 @@
 {
     "C_Cpp.default.configurationProvider": "go2sh.cmake-integration",
     "files.associations": {
-        "stdarg.h": "c"
+        "stdarg.h": "c",
+        "numbers": "c"
     }
 }
